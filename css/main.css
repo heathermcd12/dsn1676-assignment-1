@@ -19,12 +19,23 @@ html {
   box-sizing: inherit;
 }
 
-.header {
+.masthead {
+    background: transparent url("../images/lines.png");
     text-align: center;
-    color: black;
+}
+
+.title {
+    background-color: #e7e5d9;
+    display: inline-block;
+    text-shadow: 1px 1px 0 grey;
 }
 
 h1 {
+    text-align:center;
+    color: black;
+}
+
+h2 {
     text-align:center;
     color: white;
 }
@@ -35,7 +46,30 @@ h1 {
 }
 
 .panel {
-    border-image: url("../images/panel-border.png")36 36 36 36 stretch stretch;
+    border-image: url("../images/panel-border.png") 36 36 36 36 stretch stretch;
     border-width: 36px 36px 36px 36px;
 }
     
+.reward {
+    background-color:#87714F;
+}
+
+.logo {
+	margin: 0 0.2em 0 0;
+	width: 1.2em;
+	vertical-align: middle;
+}
+p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h2 
+
