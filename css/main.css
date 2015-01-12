@@ -71,5 +71,10 @@ li {
     color: white;
 }
 
-h2 
+.current {
+    background-image: url("../images/hat.svg"), url("../images/handcuffs.svg");
+    background-position: center top, center bottom;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+}
 
